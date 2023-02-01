@@ -20,8 +20,8 @@
   - Version the metadata with Git
 4. Go to your GitHub account and check out the tags. How would you add the descriptions to them to improve data cataloging?
 5. Create another version of the dataset the same way as it was shown (**Exercise 2**). Pay attention to which files are being created and DVC/Git roles!
-6. Install pandas, sklearn, jupyter notebook:
-`pip install pandas`, `pip install sklearn`, `pip install notebook`
+6. Install pandas and jupyter notebook (or work with another code editor that you are already using):
+`pip install pandas`, `pip install notebook`
 7. Create empty Jupyter Notebook and copy the code from **Exercise 3**.
 7. Start with the code from Excercise 3 and add the arguments to be able to load the data version 2 (v2) in the code with DVC API (**Exercise 4**).
 
@@ -114,7 +114,7 @@ The correspondence between the original (human readable) name and the DVC-genera
 
 ```bash
 # Chenge the link with the link to your own repository (make sure to keep .git at the end!)
-git remote add origin https://github.com/pkaferle/mlops.git
+git remote add origin <link-to-your-repo>
 git remote -v
 git branch -M main
 git push -u origin main
